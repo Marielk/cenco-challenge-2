@@ -1,0 +1,136 @@
+{
+  "form": [
+    {
+      "id": 1,
+      "type": "select",
+      "name": "select-1",
+      "label": "Corte de cabello",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "value": "cero",
+          "label": "Cero"
+        },
+        {
+          "id": 2,
+          "value": "fade",
+          "label": "Fade"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "select",
+      "name": "select-2",
+      "label": "Peluquero",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "value": "Benjamin",
+          "label": "Benjamin"
+        },
+        {
+          "id": 2,
+          "value": "Juan Pablo",
+          "label": "Juan Pablo"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "name": "comment",
+      "value": "",
+      "label": "Comentario adicional",
+      "validations": []
+    },
+    {
+      "id": 4,
+      "type": "input",
+      "name": "reason",
+      "value": "",
+      "label": "Motivo de la solicitud",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "text-area",
+      "name": "details",
+      "value": "",
+      "label": "Detalle",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "maxLength",
+          "value": 200
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "date-picker",
+      "name": "eventDate",
+      "value": "",
+      "label": "Fecha del evento",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "date-picker",
+      "name": "fromDate",
+      "value": "",
+      "label": "Desde",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "date-picker",
+      "name": "untilDate",
+      "value": "",
+      "label": "Hasta",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "file",
+      "name": "file",
+      "value": "",
+      "label": "Cargar Archivo",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    }
+  ]
+}

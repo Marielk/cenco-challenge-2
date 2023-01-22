@@ -1,0 +1,127 @@
+:root {
+  --font-family: 'Arial', sans-serif;
+  --main-blue: #236CAF;
+  --background-color: #F2F5F9;
+  --text-color: #41515C;
+  --input-color: #67737C;
+  --button-background: #0F589B;
+  --button-hover: #0A4276;
+  --background-hover: #0A4276;
+  --divider-gray: #BCC2C6;
+  --soft-gray: #DEE0E2;
+  --drop-background: #E9F0F7;
+}
+
+.main_title {
+  font-family: var(--font-family);
+  color: var(--main-blue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.0120588em;
+  color: var(--text-color);
+  margin-top: 0px;
+}
+
+.section_title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0120588em;
+  color: var(--text-color);
+  align-items: center;
+  display: flex;
+}
+
+.section_title svg {
+  color: var(--main-blue);
+  margin-right: 11px;
+}
+
+.section_title_wrapper {
+  padding-left: 10% !important;
+}
+
+.main_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--button-background);
+  box-shadow: 0px 2px 2px rgba(15, 88, 155, 0.3);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  height: 52px;
+}
+
+.main_button:hover {
+  background: var(--button-hover);
+}
+
+.back_button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0120588em;
+  color: var(--text-color);
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.back_button svg{
+  color: var(--text-color);
+  width: 20px;
+  margin-right: 5px;
+}
+
+.divider {
+  height: 0px;
+  border: 1px solid var(--divider-gray);
+  display: block;
+  width: 100%;
+}
+
+.page_container {
+  justify-content: center;
+  flex-direction: column !important;
+  padding-left: 15%;
+  padding-right: 10%;
+  margin-top: 70px !important;
+}
+
+.page_title_wrapper {
+  display: flex;
+  padding-left: 10% !important;
+  flex-direction: column !important;
+}
+
+.card_title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}

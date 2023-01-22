@@ -1,0 +1,48 @@
+.empty_state_container {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.empty_state_container p{
+  font-family: var(--font-family);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.empty_state_container svg{
+  color: var(--divider-gray);
+  width: 80px;
+  height: 80px;
+}
+
+.create_button_data {
+  position: absolute;
+  right: 10%;
+  top: 95px;
+  width: 226px
+}
+
+.list_wrapper {
+  flex-direction: column;
+  width: 100%;
+}
+
+.forms_list_card {
+  width: 85% !important;
+  max-width: 90% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+.forms_list_card svg {
+  color: var(--divider-gray);
+}

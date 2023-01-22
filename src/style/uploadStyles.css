@@ -1,0 +1,128 @@
+#upload-file {
+  opacity: 0;
+  position: relative;
+  top: -45px;
+  left: -20px;
+  z-index: 2;
+  cursor: pointer
+}
+
+.file-drop {
+  position: absolute;
+  height: 118px;
+  width: 100%;
+  top: 0px;
+  border-radius: 8px;
+}
+
+.file-drop>.file-drop-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.file-drop>.file-drop-target.file-drop-dragging-over-frame {
+  border: none;
+  background-color: var(--drop-background);
+  box-shadow: none;
+  z-index: 3;
+  opacity: 1;
+  opacity: 0.5;
+}
+
+.upload_container {
+  width: 100%;
+  height: 118px;
+  background: #FFFFFF;
+  border: 1px dashed var(--divider-gray);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.upload_container.error {
+  border: 1px solid red;
+}
+
+.upload_container label button {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.0120588em;
+  color: var(--button-background);
+  background-color: transparent;
+  border: none;
+}
+
+.upload_container label {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.error_msg {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.0120588em;
+  color: var(--text-color);
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+}
+.error_msg svg{
+  color: red !important;
+  margin-right: 5px;
+}
+
+.upload_container svg{
+  color: var(--divider-gray);
+}
+
+.file_uploaded_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.file_uploaded_content label{
+  color: var(--main-blue);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.file_uploaded_content p {
+  margin-left: 15px;
+}
+
+.file_uploaded_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,73 @@
+.form_selection_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.form_selection_cards_wrapper .form_selection_card {
+  width: 45%;
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 24px;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.form_select {
+  margin-bottom: 24px;
+  border: 0.5px solid var(--divider-gray);
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+}
+.form_select input{
+  background-color: white;
+  width: 100%;
+}
+
+.form_textarea {
+  margin-top: 24px !important;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid var(--divider-gray) !important;
+}
+
+.form_textarea.error {
+  border: 1px solid red !important;
+}
+
+.form_textarea fieldset{
+  border: none;
+}
+
+.form_textarea textarea{
+  background-color: white;
+  width: 100%;
+}
+
+.form_datepicker {
+  background-color: white;
+  margin-top: 24px !important;
+  margin-right: 20px !important;
+}
+
+.datepicker_row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.form_textarea_counter {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 5px;
+  color: var(--divider-gray);
+}
+
+.form_action_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
